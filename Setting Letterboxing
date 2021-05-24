@@ -1,0 +1,20 @@
+Untuk mengatur sebuah space gray yang ada di bagian tepi tor browser
+kita perlu melakukan beberapa setup admin dengan cara sebagai berikut :
+
+  Masukan perintah dibawah ini.
+  
+  - about:config
+  
+  Kemudian setelah hit enter, akan muncul warning dengan tulisan (Proceed with Caution) lalu kita lihat dibawah
+  ada check box, kemudian kita ceklist dan hit button bertuliskan " Accept The Risk And Continue "
+  
+  setelah itu akan muncul tab kosong dengan pointer bergerak di bagian search, lalu masukan perintah berikut :
+  
+  - privacy.resistFingerprinting
+  
+  lalu selanjutnya akan muncul beberapa tulisan dengan kata paling depan "Privacy" kemudian kita pilih bagian
+  " privacy.resistFingerprinting.letterboxing " dan ubah menjadi (false)
+  
+  setelah selesai melakukan semua perintah tersebut, kita perlu restart browser atau open new tab dan pengaturan berhasil di terapkan.
+  
+  TERIMAKASIH
